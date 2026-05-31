@@ -196,7 +196,6 @@ header{
 
 .cta-btn:hover { background: var(--terracotta); }
 
-/* FILTER BAR */
 .filter-bar{
   display:flex;
   justify-content:space-between;
@@ -241,7 +240,6 @@ header{
 
 .search-input input:focus { border-color: var(--terracotta); }
 
-/* CONTENT */
 .content-wrapper{
   display:grid;
   grid-template-columns:1fr 280px;
@@ -325,7 +323,6 @@ header{
 
 .diff-dot.filled{ background:var(--terracotta); }
 
-/* SIDEBAR */
 .side-col{
   border-left:1px solid var(--border);
   background:var(--paper);
@@ -359,7 +356,6 @@ header{
   margin-top:8px;
 }
 
-/* CULTURE SECTION */
 #cultureSection {
   scroll-margin-top: 80px;
   padding: 60px 48px;
@@ -401,7 +397,6 @@ header{
   line-height: 1.7;
 }
 
-/* GALLERY SECTION */
 #gallerySection {
   scroll-margin-top: 80px;
   padding: 60px 48px;
@@ -449,7 +444,6 @@ header{
   color: var(--muted);
 }
 
-/* ABOUT SECTION */
 #aboutSection {
   scroll-margin-top: 80px;
   display: grid;
@@ -496,7 +490,6 @@ header{
   color: var(--ink2);
 }
 
-/* CONTACT SECTION */
 #contactSection {
   scroll-margin-top: 80px;
   padding: 60px 48px;
@@ -617,7 +610,6 @@ header{
 
 .contact-link-val { font-size: 18px; }
 
-/* TRADITIONAL MEALS SECTION */
 #traditionalSection {
   scroll-margin-top: 80px;
   padding: 60px 48px;
@@ -675,7 +667,6 @@ header{
   color: var(--muted);
 }
 
-/* FOOTER */
 footer{
   background:var(--ink);
   color:var(--cream);
@@ -715,7 +706,6 @@ footer{
 
 .footer-links a:hover { opacity: 1; color: var(--terracotta); }
 
-/* MODAL */
 .modal-overlay{
   display:none;
   position:fixed;
@@ -790,7 +780,6 @@ footer{
 .step-num{ font-size:28px; color:var(--terracotta); }
 .step-text{ line-height:1.7; }
 
-/* TOAST */
 .toast {
   position: fixed;
   bottom: 32px;
@@ -849,7 +838,6 @@ footer{
   </nav>
 </header>
 
-<!-- HERO -->
 <section class="hero">
   <div class="hero-image">
     <div class="season-badge">Featured · Zimbabwe</div>
@@ -886,8 +874,7 @@ footer{
     <button class="cta-btn" onclick="openModal(0)">View Recipe →</button>
   </div>
 </section>
-
-<!-- FILTER BAR -->
+  
 <div class="filter-bar" id="recipesSection">
   <div class="filter-tabs">
     <button class="filter-tab active" onclick="filterCards('all',this)">All</button>
@@ -900,7 +887,6 @@ footer{
   </div>
 </div>
 
-<!-- RECIPE GRID + SIDEBAR -->
 <div class="content-wrapper">
   <div class="recipe-grid" id="recipeGrid"></div>
 
@@ -926,7 +912,6 @@ footer{
   </div>
 </div>
 
-<!-- TRADITIONAL MEALS -->
 <section id="traditionalSection">
   <div class="traditional-heading">Traditional <em>Meals</em></div>
   <div class="traditional-sub">Iconic dishes from across Zimbabwe's rich culinary heritage.</div>
@@ -983,7 +968,6 @@ footer{
   </div>
 </section>
 
-<!-- CULTURE SECTION -->
 <section id="cultureSection">
   <div class="culture-heading">Zimbabwean <em>Food Culture</em></div>
   <p style="font-size:16px;color:var(--muted);max-width:600px;line-height:1.7">
@@ -993,37 +977,37 @@ footer{
 
   <div class="culture-grid">
     <div class="culture-card">
-      <div class="culture-card-icon">🔥</div>
+      <div class="culture-card-icon"></div>
       <h3>Open-Fire Cooking</h3>
       <p>Traditional Zimbabwean cooking over wood fires imparts a distinctive smoky depth 
          to dishes that modern stoves cannot replicate. The fire is central to communal meals.</p>
     </div>
     <div class="culture-card">
-      <div class="culture-card-icon">🌽</div>
+      <div class="culture-card-icon"></div>
       <h3>Maize — The Staple</h3>
       <p>Sadza, made from maize meal, is the cornerstone of Zimbabwean cuisine. 
          No meal is truly complete without it — it anchors the plate and the culture alike.</p>
     </div>
     <div class="culture-card">
-      <div class="culture-card-icon">🤝</div>
+      <div class="culture-card-icon"></div>
       <h3>Communal Eating</h3>
       <p>Meals are traditionally shared from a common pot, reinforcing bonds of family 
          and community. The act of eating together is an expression of ubuntu.</p>
     </div>
     <div class="culture-card">
-      <div class="culture-card-icon">🌿</div>
+      <div class="culture-card-icon"></div>
       <h3>Wild Herbs & Greens</h3>
       <p>Covo, rape, and wild spinach are foraged and cultivated across the country. 
          These leafy greens, cooked with peanut butter, are a nutritional powerhouse.</p>
     </div>
     <div class="culture-card">
-      <div class="culture-card-icon">🎉</div>
+      <div class="culture-card-icon"></div>
       <h3>Celebrations & Feasts</h3>
       <p>Weddings, funerals, and harvest festivals centre on food. 
          Whole roasted goat and communal sadza signal occasions of joy and remembrance.</p>
     </div>
     <div class="culture-card">
-      <div class="culture-card-icon">🏞️</div>
+      <div class="culture-card-icon"></div>
       <h3>Regional Variety</h3>
       <p>From Kariba's freshwater fish to Bulawayo's street food culture, 
          each region of Zimbabwe brings its own flavour and culinary identity to the table.</p>
@@ -1071,7 +1055,6 @@ footer{
 
 </section>
 
-<!-- ABOUT -->
 <section id="aboutSection">
   <div class="about-image">👨🏾‍🍳</div>
   <div class="about-content">
@@ -1089,7 +1072,6 @@ footer{
   </div>
 </section>
 
-<!-- CONTACT -->
 <section id="contactSection">
   <div class="contact-heading">Get in <em>Touch</em></div>
   <p class="contact-sub">Have a recipe to share, feedback, or just want to connect?</p>
@@ -1123,7 +1105,6 @@ footer{
   </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
   <div>
     <div class="footer-brand">Austin Kudoma</div>
@@ -1172,7 +1153,6 @@ footer{
   </div>
 </div>
 
-<!-- TOAST -->
 <div class="toast" id="toast"></div>
 
 <script>
